@@ -57,9 +57,15 @@ The project consists of several components implemented in a structured manner:
 
 13. **Route 53**:
     - Registered the domain name and set up a DNS record using Route 53.
+   
+14. **Requesting an SSL Certificate**:
+   - An SSL certificate was requested through **AWS Certificate Manager (ACM)**.
+   - The domain for the certificate included the primary domain and subdomains (`*.galkini.com`).
+   - The validation method used was **DNS Validation**, which involved adding a specific CNAME record to the domain's DNS configuration to prove ownership of the domain.
+   - After the domain ownership was validated via ACM, the requested SSL certificate was attached to the AWS **Route 53 Hosted Zone** for the domain.
 
 ## Technologies Used
-- **AWS Services**: EC2, RDS, EKS, ECR, Elastic Load Balancer, Systems Manager, Route 53
+- **AWS Services**: EC2, RDS, EKS, ECR, Elastic Load Balancer, Systems Manager, Route 53, ACM
 - **Containers**: Docker
 - **Orchestration**: Kubernetes
 - **Monitoring**: Grafana, Prometheus
