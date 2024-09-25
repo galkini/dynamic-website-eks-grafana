@@ -65,7 +65,7 @@ The project consists of several components implemented in a structured manner:
     - After the domain ownership was validated via ACM, the requested SSL certificate was attached to the AWS **Route 53 Hosted Zone** for the domain.
 
 ## Technologies Used
-- **AWS Services**: EC2, RDS, EKS, ECR, Elastic Load Balancer, Systems Manager, Route 53, ACM
+- **AWS Services**: EC2, RDS, EKS, ECR, Elastic Load Balancer, Systems Manager, Route 53, ACM, Secrets Manager
 - **Containers**: Docker
 - **Orchestration**: Kubernetes
 - **Monitoring**: Grafana, Prometheus
