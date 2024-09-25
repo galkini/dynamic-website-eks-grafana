@@ -8,7 +8,7 @@ This project demonstrates how to host a dynamic website using AWS services, spec
 The project consists of several components implemented in a structured manner:
 
 1. **Infrastructure as Code**: 
-   - Created all necessary AWS infrastructure using Terraform, including a three-tier VPC, Internet Gateway, NAT Gateways, public and private route tables, and associated security groups.
+   - Created all necessary AWS infrastructure using Terraform, including a three-tier VPC, Internet Gateway, NAT Gateways, public and private route tables.
 
 2. **Source Code Management**:
    - Created two private repositories in GitHub: one for the Dockerfile and another for the RentZone application code. 
