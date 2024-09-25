@@ -1,4 +1,4 @@
-![Alt text](/Host_a_Dynamic_Website_on_AWS_with_EKS_upd.png)
+![Alt text](/Host_a_Dynamic_Website_on_AWS_with_EKS_upd_with_numbers.png)
 
 ## Overview
 This project demonstrates how to host a dynamic website using AWS services, specifically focusing on Docker containers, Amazon EKS, Amazon ECR, and monitoring with Grafana and Prometheus. The architecture includes a three-tier VPC configuration with public and private subnets, NAT Gateways, and specific security settings to ensure scalability and security.
