@@ -55,8 +55,11 @@ The project consists of several components implemented in a structured manner:
     - Deployed a Windows 2022 EC2 instance as a bastion host in a private subnet, connecting to it using AWS Systems Manager (SSM) for administrative purposes.
     - Established an RDP session via an SSM tunnel from the local machine to the bastion host and accessed the private application hosted by the EKS cluster.
 
+13. **Route 53**:
+    - Registered the domain name and set up a DNS record using Route 53.
+
 ## Technologies Used
-- **AWS Services**: EC2, RDS, EKS, ECR, Elastic Load Balancer, Systems Manager
+- **AWS Services**: EC2, RDS, EKS, ECR, Elastic Load Balancer, Systems Manager, Route 53
 - **Containers**: Docker
 - **Orchestration**: Kubernetes
 - **Monitoring**: Grafana, Prometheus
